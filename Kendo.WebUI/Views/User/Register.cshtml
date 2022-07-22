@@ -1,0 +1,113 @@
+﻿
+
+@{
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kayıt Ol</title>
+
+    <link href="~/Content/css/all.min.css" rel="stylesheet" />
+    <link href="~/Content/css/icheck-bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/css/adminlte.min.css" rel="stylesheet" />
+    <link href="~/Content/kendo/2021.2.616/kendo.common.min.css" rel="stylesheet" />
+    <link href="~/Content/kendo/2021.2.616/kendo.default.min.css" rel="stylesheet" />
+    <link href="~/Content/kendo/2021.2.616/kendo.default.mobile.min.css" rel="stylesheet" />
+</head>
+<body class="hold-transition register-page">
+    <div class="register-box">
+        <div class="card card-outline card-primary">
+
+            <div class="card-body">
+                <h4 class="login-box-msg">Kayıt Olma Sayfasına Hoş Geldiniz</h4>
+                <div class="k-notification-content k-notification-container" id="validation-summary">
+                </div>
+                <form id="ticketsForm">
+
+                    <div class="input-group mb-3">
+                        <input type="email" class="form-control" id="UserName" required placeholder="Email">
+
+                    </div>
+                    <div class="input-group mb-3">
+                        <input type="password" class="form-control" id="password" required placeholder="Password">
+
+                    </div>
+                    <div class="input-group mb-3">
+                        <input type="password" class="form-control"id="repassword" required placeholder="Retype password">
+
+                    </div>
+                    <div class="row">
+                        <!-- /.col -->
+                        <div class="col-12">
+                            <button id="register" class="btn btn-primary btn-block">Register</button>
+                        </div>
+                        <!-- /.col -->
+                    </div>
+                </form>
+                <a href="~/User/Index" class="text-center">Zaten Üye Misiniz?</a>
+            </div>
+            <!-- /.form-box -->
+        </div><!-- /.card -->
+    </div>
+    <!-- /.register-box -->
+    <script src="~/Scripts/kendo/2021.2.616/jquery.min.js"></script>
+    <script src="~/Scripts/kendo/2021.2.616/kendo.web.min.js"></script>
+    <script src="~/Scripts/kendo/2021.2.616/kendo.aspnetmvc.min.js"></script>
+    <script src="~/Scripts/kendo/2021.2.616/kendo.all.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var validator = $("#ticketsForm").kendoValidator().data("kendoValidator");
+            var validationSummary = $("#validation-summary");
+
+            $("#register").click(function () {
+
+                var data = new Object();
+
+                var UserName = $('#UserName').val();
+
+                var password = $('#password').val();
+                var repassword = $('#repassword').val();
+
+                if (password == repassword || email != "") {
+                    data.UserName = $('#UserName').val();
+                    data.Password = $('#password').val();
+                    $.ajax({
+                        type: "POST",
+                        url: '/User/Register',
+                        data: JSON.stringify(data),
+                        contentType: "application/json; charset=utf-8",
+                        dataType: "json",
+                        success: function (data) {
+                            if (data) {
+                                validationSummary.html("<div class='k-messagebox k-messagebox-success'>Kayıt Olma İşlemi Başarı Bir Şekilde Gerçekleşti</div>");
+                                window.location.href = "/User/Index";
+                            }
+                            else {
+                                validationSummary.html("<div class='k-messagebox k-messagebox-error'>Kayıt Olma İşlemi Başarısız Lütfen Bilgilerinizi Kontrol Ediniz</div>");
+                            }
+                        },
+                        error: function Error() {
+
+                            validationSummary.html("<div class='k-messagebox k-messagebox-error'>Kayıt Olma İşlemi Başarısız Lütfen Bilgilerinizi Kontrol Ediniz</div>");
+                        }
+
+                    });
+
+                }
+                else {
+                    validationSummary.html("<div class='k-messagebox k-messagebox-error'>Kayıt Olma İşlemi Başarısız Lütfen Bilgilerinizi Kontrol Ediniz</div>");
+                }
+            });
+
+        });
+
+
+    </script>
+
+</body>
+</html>

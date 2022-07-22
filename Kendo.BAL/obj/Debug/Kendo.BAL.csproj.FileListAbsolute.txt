@@ -1,0 +1,12 @@
+C:\Users\pc\Documents\GitHub\ProjeKendo\Kendo.BAL\bin\Debug\Kendo.BAL.dll
+C:\Users\pc\Documents\GitHub\ProjeKendo\Kendo.BAL\bin\Debug\Kendo.BAL.pdb
+C:\Users\pc\Documents\GitHub\ProjeKendo\Kendo.BAL\bin\Debug\Kendo.DAL.dll
+C:\Users\pc\Documents\GitHub\ProjeKendo\Kendo.BAL\bin\Debug\EntityFramework.dll
+C:\Users\pc\Documents\GitHub\ProjeKendo\Kendo.BAL\bin\Debug\Kendo.DAL.pdb
+C:\Users\pc\Documents\GitHub\ProjeKendo\Kendo.BAL\bin\Debug\Kendo.DAL.dll.config
+C:\Users\pc\Documents\GitHub\ProjeKendo\Kendo.BAL\bin\Debug\EntityFramework.xml
+C:\Users\pc\Documents\GitHub\ProjeKendo\Kendo.BAL\obj\Debug\Kendo.BAL.csproj.AssemblyReference.cache
+C:\Users\pc\Documents\GitHub\ProjeKendo\Kendo.BAL\obj\Debug\Kendo.BAL.csproj.CoreCompileInputs.cache
+C:\Users\pc\Documents\GitHub\ProjeKendo\Kendo.BAL\obj\Debug\Kendo.BAL.csproj.CopyComplete
+C:\Users\pc\Documents\GitHub\ProjeKendo\Kendo.BAL\obj\Debug\Kendo.BAL.dll
+C:\Users\pc\Documents\GitHub\ProjeKendo\Kendo.BAL\obj\Debug\Kendo.BAL.pdb

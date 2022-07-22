@@ -1,0 +1,15 @@
+C:\Users\pc\Documents\GitHub\ProjeKendo\Kendo.DAL\bin\Debug\Kendo.DAL.dll.config
+C:\Users\pc\Documents\GitHub\ProjeKendo\Kendo.DAL\bin\Debug\Kendo.DAL.dll
+C:\Users\pc\Documents\GitHub\ProjeKendo\Kendo.DAL\bin\Debug\Kendo.DAL.pdb
+C:\Users\pc\Documents\GitHub\ProjeKendo\Kendo.DAL\bin\Debug\EntityFramework.dll
+C:\Users\pc\Documents\GitHub\ProjeKendo\Kendo.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\pc\Documents\GitHub\ProjeKendo\Kendo.DAL\bin\Debug\EntityFramework.xml
+C:\Users\pc\Documents\GitHub\ProjeKendo\Kendo.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\pc\Documents\GitHub\ProjeKendo\Kendo.DAL\obj\Debug\Kendo.DAL.csproj.AssemblyReference.cache
+C:\Users\pc\Documents\GitHub\ProjeKendo\Kendo.DAL\obj\Debug\Kendo.DAL.Migrations.tablecreate.resources
+C:\Users\pc\Documents\GitHub\ProjeKendo\Kendo.DAL\obj\Debug\Kendo.DAL.Migrations.fixprop.resources
+C:\Users\pc\Documents\GitHub\ProjeKendo\Kendo.DAL\obj\Debug\Kendo.DAL.csproj.GenerateResource.cache
+C:\Users\pc\Documents\GitHub\ProjeKendo\Kendo.DAL\obj\Debug\Kendo.DAL.csproj.CoreCompileInputs.cache
+C:\Users\pc\Documents\GitHub\ProjeKendo\Kendo.DAL\obj\Debug\Kendo.DAL.csproj.CopyComplete
+C:\Users\pc\Documents\GitHub\ProjeKendo\Kendo.DAL\obj\Debug\Kendo.DAL.dll
+C:\Users\pc\Documents\GitHub\ProjeKendo\Kendo.DAL\obj\Debug\Kendo.DAL.pdb
